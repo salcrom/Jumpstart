@@ -77,9 +77,41 @@ a.btn.btn-primary.btn-lg {
 	padding: 1.3rem auto;
 }
 
+/*-- FEATURED PROJECT --*/
 
+#Featured_project {
+	margin: 0 auto;
+}
 
+#Featured_project_company {
+	margin-top: 20px;
+}
 
+h2 {
+	color: #399bd1;
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+#Product_Categories {
+	color: #399bd1;
+}
+
+img {
+	width: 100%;
+}
+
+li {
+	line-height: 1.4;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+/*-- PROJECTS --*/
 
 
 
