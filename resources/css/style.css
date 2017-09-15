@@ -22,6 +22,12 @@ html, body {
 	color: #399bd1;
 } 
 
+@media only screen and (max-width: 480px) {
+	img.navbar-brand.navbar-right.navbar-collapse {
+		display: none;
+	}
+}
+
 /*-- JUMBOTRON --*/
 
 .jumbotron {
@@ -73,6 +79,27 @@ a.btn.btn-primary.btn-lg {
 	padding: 1.3rem auto;
 }
 
+@media only screen and (max-width: 480px) {
+	
+	.jumbotron-bike {
+		background-size: 300% 100%;
+		background-position: -650px -680px;
+	}
+
+	.jumbotron-bike .display-3 {
+		font-size: 5.7rem;
+	}
+
+	p.lead {
+		width: 31rem;
+		padding-top: 0;
+	}
+
+	a.btn.btn-primary.btn-lg {
+		margin-top: 2rem;
+	}
+}
+
 /*-- FEATURED PROJECT --*/
 
 #Featured_project {
@@ -100,10 +127,19 @@ h3 {
 
 .image-container {
 	opacity: 0.7;
+	width: 100%;
+	transition: 0.5s, 0.5s;
+	overflow: hidden;
+}
+
+.image-container:hover img {
+	transform:scale(1.3);
+	opacity: 0.5;
 }
 
 img {
 	width: 100%;
+	transition: 0.5s;
 }
 
 li {
@@ -119,6 +155,12 @@ li {
 
 #title {
 	padding-left: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+	.col-xs-12 {
+		margin-bottom: 4rem;
+	}
 }
 
 /*-- FOOTER --*/
@@ -144,6 +186,13 @@ p.trouble {
 
 #bottom {
 	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 480px) {
+	p.trouble {
+		width: 100%;
+		font-size: 0.9rem;
+	}
 }
 
 
