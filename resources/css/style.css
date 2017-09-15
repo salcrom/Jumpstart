@@ -52,10 +52,6 @@ p.lead {
 	text-align: center;
 }
 
-#bottom {
-
-}
-
 a.btn.btn-primary.btn-lg {
 	width: 11.4rem;
 	margin-bottom: 11.85rem;
@@ -124,6 +120,44 @@ li {
 #title {
 	padding-left: 15px;
 }
+
+/*-- FOOTER --*/
+
+#footer {
+	margin: 0 auto;
+	padding: 5.2rem 0;
+	text-align: center;
+	background-color: #f3f3f3;
+}
+
+strong {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+p.trouble {
+	width: 42rem;
+	margin: 0 auto;
+	padding-top: 1.4rem;
+	text-align: center;
+}
+
+#bottom {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
