@@ -39,7 +39,51 @@ html, body {
 	background-size: cover;
 }
 
+.jumbotron-beer {
+	background-image: url(../images/jumbotron-beer.jpg);
+	background-size: cover;
+}
+
+.jumbotron-flowers {
+	background-image: url(../images/jumbotron-flowers.jpg);
+	background-size: cover;
+}
+.jumbotron-duffel {
+	background-image: url(../images/jumbotron-duffel.jpg);
+	background-size: cover;
+}
+
 .jumbotron-bike .display-3 {
+	margin: 0 auto;
+	padding-top: 11.85rem;
+	font-family: Monoton;
+	font-size: 7.1rem;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+	-1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron-beer .display-3 {
+	margin: 0 auto;
+	padding-top: 11.85rem;
+	font-family: Monoton;
+	font-size: 7.1rem;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+	-1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron-flowers .display-3 {
+	margin: 0 auto;
+	padding-top: 11.85rem;
+	font-family: Monoton;
+	font-size: 7.1rem;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+	-1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron-duffel .display-3 {
 	margin: 0 auto;
 	padding-top: 11.85rem;
 	font-family: Monoton;
