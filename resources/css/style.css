@@ -26,6 +26,15 @@ html, body {
 	img.navbar-brand.navbar-right.navbar-collapse {
 		display: none;
 	}
+
+	.navbar-default .navbar-nav > .active > a{
+	color: #399bd1;
+} 
+
+	.navbar-default .navbar-nav > .active > a:hover {
+	color: #399bd1;
+}
+
 }
 
 /*-- JUMBOTRON --*/
@@ -95,10 +104,10 @@ html, body {
 
 p.lead {
 	margin: 0 auto;
-	padding-top: 2.8rem;
+	padding: 2.8rem;
 	color: white;
 	width: 51.3rem;
-	font-size: 1.7rem;
+	font-size: 2rem;
 	text-align: center;
 }
 
@@ -119,7 +128,7 @@ a.btn.btn-primary.btn-lg {
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.a.btn-primary {
+a.btn-primary {
 	padding: 1.3rem auto;
 }
 
